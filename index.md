@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
+# 一级标题
+## 二级标题
+### 三级标题
 
-You can use the [editor on GitHub](https://github.com/crowboy-hub/crowboy.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+一级标题
+==================
+二级标题
+------------------
+~~文字~~ 删除线 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*斜体*
 
-### Markdown
+**粗体**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+***斜加粗***
 
-```markdown
-Syntax highlighted code block
+[网址](http://网页连接 "标签")
 
-# Header 1
-## Header 2
-### Header 3
+<http://网页链接>
 
-- Bulleted
-- List
+也可以最后再告诉地址，图片也是如此，可以之后再告诉
+[网址][wangzhi1]
 
-1. Numbered
-2. List
+[wangzhi1]:http://网页连接 "标签"
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+图片的插入
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![123](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fa1.att.hudong.com%2F62%2F02%2F01300542526392139955025309984.jpg&refer=http%3A%2F%2Fa1.att.hudong.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616047666&t=e34bb7a3ffc8146f86be529cc77ced68 "title")
 
-### Jekyll Themes
+本地图片
+按相对位置
+ ![](./bizhi.jpg)   
+ ./中的.表示当前目录
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crowboy-hub/crowboy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+子目录文件下的图片
+![](zimulu/bizhi2.jpg)
+父目录文件下的图片
+\!\[](../路径) 
 
-### Support or Contact
+脚注
+待解释[^jiaozu]   
+^jiaozu是唯一的，不可重复
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[^jiaozu]:解释内容
+
+引用
+>123
+>>123
+>>>123
+
+代码块
+
+`123`
+
+```123```
+
+代码区块
+
+    123
+或者使用tab键
+
+    123
+
+分隔线
+*or_or-  three
+***
+___
+---
+
+无序列表
+前面加上*or-or+
+
++ 1
+- 2
+
+有序列表
+1. 1
+2. 2
+3. 3
+多级列表（vscode中试验为在下一级中加两个空格）直接回车后用tab键更方便
++ 1  
+  + 1    
+    + 1
++ 2
+  + 2
+    + 2
+
+表格
+| Table | Are   | Cool |
+|:---- |:----:|----:|
+|1|2|3|
+|4|5|6|
+\的作用     
+\ -1-
+
+
+
